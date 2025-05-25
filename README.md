@@ -1,10 +1,14 @@
 # spec
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/WinPooh32/spec.svg)](https://pkg.go.dev/github.com/WinPooh32/spec)
+
 Simple implementation of the [Composite Specification pattern](https://martinfowler.com/apsupp/spec.pdf) ([archive](https://web.archive.org/web/20250428234628/https://martinfowler.com/apsupp/spec.pdf)). Only conjunction operation (and) is implemented for simplicity and better performance.
 
 Also it can provide textual description what specification rule is not satisfied by using an error interface instead of a bool predicate.
 
 ## Example
+
+<https://go.dev/play/p/Katvuji0xHo>
 
 Define class:
 
